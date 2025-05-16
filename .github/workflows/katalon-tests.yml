@@ -24,3 +24,11 @@ jobs:
         path: |
           Reports/
           Test Results/ 
+    
+    - name: Send Report to Discord
+      uses: Ilshidur/action-discord@master
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      with:
+        args: "Test results have been uploaded. Check the artifacts for details."
+      if: always()  # Send even if tests fail
