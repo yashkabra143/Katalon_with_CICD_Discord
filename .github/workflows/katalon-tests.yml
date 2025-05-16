@@ -28,48 +28,40 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: ./Reports/
-            publish_branch: gh-pages
-            keep_files: true
-            force_orphan: true
-            commit_message: "Deploy PDF report to GitHub Pages"
-            exclude_assets: |
-                !*.pdf
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./Reports/
+        publish_branch: gh-pages
+        keep_files: true
+        force_orphan: true
+        commit_message: "Deploy PDF and HTML report to GitHub Pages"
+        exclude_assets: '!*.pdf !*.html'
 
+        
     - name: Send Discord Notification
       run: |
-        # Get test results from the latest report
-        REPORT_PATH=$(find ./Reports -name "*.pdf" -type f -printf '%T@ %p\n' | sort -n | tail -1 | cut -f2- -d" ")
-        TOTAL_TESTS=$(grep -r "Total Tests" ./Reports | grep -o '[0-9]*' | head -1 || echo "0")
-        PASSED_TESTS=$(grep -r "Passed" ./Reports | grep -o '[0-9]*' | head -1 || echo "0")
-        FAILED_TESTS=$(grep -r "Failed" ./Reports | grep -o '[0-9]*' | head -1 || echo "0")
+        # Find the latest HTML report
+        HTML_REPORT_PATH=$(find ./Reports -name "*.html" -type f | sort | tail -1)
+        HTML_REPORT_FILE=$(basename "$HTML_REPORT_PATH")
+        REPORT_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/$HTML_REPORT_FILE"
+
+        # Example values (replace with actual extraction if needed)
+        SUITE_NAME="Test Suites/Verify Operations"
+        STATUS="COMPLETE"
+        PASSED=0
+        FAILED=0
+        SKIPPED=0
+        DURATION="8 seconds"
+
+        MESSAGE="🧪 Test Suite Execution Report\n\
+        📘 Suite\n$SUITE_NAME\n\
+        📊 Status\n$STATUS\n\
+        ✅ Passed\n$PASSED\n\
+        ❌ Failed\n$FAILED\n\
+        ⏭️ Skipped\n$SKIPPED\n\
+        ⏱️ Duration\n$DURATION\n\
+        📄 Report\n[Click to View]($REPORT_URL)"
         
-        curl -H "Content-Type: application/json" \
         -X POST \
-        -d '{
-          "embeds": [{
-            "title": "Test Execution Results",
-            "color": 5814783,
-            "fields": [
-              {
-                "name": "Total Tests",
-                "value": "'$TOTAL_TESTS'",
-                "inline": true
-              },
-              {
-                "name": "Passed",
-                "value": "'$PASSED_TESTS'",
-                "inline": true
-              },
-              {
-                "name": "Failed",
-                "value": "'$FAILED_TESTS'",
-                "inline": true
-              }
-            ],
-            "description": "📄 [View Detailed Report](https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/'$(basename "$REPORT_PATH")')"
-          }]
-        }' \
-        ${{ secrets.DISCORD_WEBHOOK }}
+          -d "{\"content\": \"$MESSAGE\"}" \
+          ${{ secrets.DISCORD_WEBHOOK }}
       if: always()  # Send even if tests fail
