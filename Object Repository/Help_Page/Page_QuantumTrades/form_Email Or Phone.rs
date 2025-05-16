@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_Email Or Phone</name>
+   <tag></tag>
+   <elementGuidId>1dd3e552-a91f-46b3-b54b-80cbfd1505b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>form</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Email Or PhoneContinue&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>fd643e08-7319-4ced-abbb-914a4d9fde78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Email Or Phone</value>
+      <webElementGuid>e6695769-a044-4e47-8e4e-69ab3aa9724d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>Email Or Phone
+​
+Continue</value>
+      <webElementGuid>d877d317-ffe7-49ab-9699-666229602f62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f47671a8f53cf561c6f1bd35a1e2c9e8</value>
+      <webElementGuid>4c91e762-f0d6-440d-bf50-694fd2c11128</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>e69aaadf-448a-40be-8387-3062ece79ca1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>adff3c68-6259-44d3-82bb-baa6560cab64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'Email Or Phone' or . = 'Email Or Phone')]</value>
+      <webElementGuid>b52a68c5-0cf4-4bc5-a9e5-a1b02e5872d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

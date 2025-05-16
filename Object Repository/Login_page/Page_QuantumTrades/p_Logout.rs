@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Logout</name>
+   <tag></tag>
+   <elementGuidId>d5af1ba4-194f-4693-bbbb-00ed7c5ac214</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'sidebar-item-logout']//p[@class and contains(concat(' ', normalize-space(@class), ' '), ' MuiTypography-root ') and contains(concat(' ', normalize-space(@class), ' '), ' css-jwevdw ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;sidebar-item-logout&quot;] p.MuiTypography-root.css-jwevdw</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;sidebar-item-logout&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>8d7524fa-c5c3-47aa-a560-1d907452ac49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body1 css-jwevdw</value>
+      <webElementGuid>522d3997-9f3c-4b0e-95ac-abb92b57d5ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Logout</value>
+      <webElementGuid>1bb5afb6-08be-4290-9b3f-7d39e735dcd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>Logout</value>
+      <webElementGuid>e2b86b20-8216-449e-a525-56ef05da124d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-b97e4335ddfcb1ec75fc03d3bf8ea144</value>
+      <webElementGuid>d9308462-7e17-4271-aaa5-5848125bf5bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'sidebar-item-logout']//p[@class and contains(concat(' ', normalize-space(@class), ' '), ' MuiTypography-root ') and contains(concat(' ', normalize-space(@class), ' '), ' css-jwevdw ')]</value>
+      <webElementGuid>356822dc-bfcd-4490-9d46-0d6fe7bc4eda</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'sidebar-item-logout']//p[@class and contains(concat(' ', normalize-space(@class), ' '), ' MuiTypography-root ') and contains(concat(' ', normalize-space(@class), ' '), ' css-jwevdw ')]</value>
+      <webElementGuid>6fd8fbc6-23bb-4063-9036-cf2c5cad04e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Logout' or . = 'Logout')]</value>
+      <webElementGuid>57d8aba8-2f5e-42e2-96eb-34da4b43ed37</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

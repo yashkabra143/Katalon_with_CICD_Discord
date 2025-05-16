@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Marketplace</name>
+   <tag></tag>
+   <elementGuidId>4caa83d4-69a5-489e-bae3-0f4647b23f99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;sidebar-item-marketplace&quot;] p.MuiTypography-root.css-jwevdw</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'sidebar-item-marketplace']//p[@class and contains(concat(' ', normalize-space(@class), ' '), ' MuiTypography-root ') and contains(concat(' ', normalize-space(@class), ' '), ' css-jwevdw ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;sidebar-item-marketplace&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>8a43963f-5f41-4ad4-a353-fe62d2c3ae7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body1 css-jwevdw</value>
+      <webElementGuid>3d7924dd-5c2b-4337-bcf5-6448ff325b30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Marketplace</value>
+      <webElementGuid>505acfbf-3d9a-495b-bc8e-5b41252eeadc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>Marketplace</value>
+      <webElementGuid>f6a1fe27-7a0e-40f3-9134-c6ebf975415c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-1363ca16f7e57ebbd6a4389ac6a767d2</value>
+      <webElementGuid>0e7aecdb-6237-45b1-a315-930d24b23103</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'sidebar-item-marketplace']//p[@class and contains(concat(' ', normalize-space(@class), ' '), ' MuiTypography-root ') and contains(concat(' ', normalize-space(@class), ' '), ' css-jwevdw ')]</value>
+      <webElementGuid>cbe92781-c5b9-4ce0-ae7a-bd9735effcf6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'sidebar-item-marketplace']//p[@class and contains(concat(' ', normalize-space(@class), ' '), ' MuiTypography-root ') and contains(concat(' ', normalize-space(@class), ' '), ' css-jwevdw ')]</value>
+      <webElementGuid>e83924e3-9804-4cc8-ba9b-87eb7d263d16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Marketplace' or . = 'Marketplace')]</value>
+      <webElementGuid>57915323-1244-4790-b063-ec6b9c24896d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

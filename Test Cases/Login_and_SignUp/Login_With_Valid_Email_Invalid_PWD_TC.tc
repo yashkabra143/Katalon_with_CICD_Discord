@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_With_Valid_Email_Invalid_PWD_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fcb7033d-3e94-43f2-9f3a-331f77bc4ebe</testCaseGuid>
+</TestCaseEntity>

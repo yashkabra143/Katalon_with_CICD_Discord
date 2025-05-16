@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Please enter your password</name>
+   <tag></tag>
+   <elementGuidId>dce19394-e8b4-4691-a0cc-71df3b959f53</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#signInTextPassword</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'signInTextPassword']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Please enter your password&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>8d9d2aad-d1c0-4a0a-bf2d-69b6687b0991</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>667fea71-3c4e-4d63-b6ba-09435adc1e10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>signInTextPassword</value>
+      <webElementGuid>19e6c514-cc5f-4d22-a4d1-71daf017782e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>e7ae88be-89cb-487d-bf18-884c25d3473d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Please enter your password</value>
+      <webElementGuid>f9e91698-9f0a-41db-9c95-c65ebccf619f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>15d42fca-91d4-43a8-880b-e8c0d6da1627</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-rijqqd</value>
+      <webElementGuid>c2c0d11a-cf6c-45b7-b61e-88618b6e688f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please enter your password</value>
+      <webElementGuid>3c7be4e1-e73b-4e43-9b5d-547623b8c957</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-d747615489b2331f7d0365dd41f63b32</value>
+      <webElementGuid>46cada38-1b91-4285-9f7c-2514b464e5e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'signInTextPassword']</value>
+      <webElementGuid>4c1f55bc-507e-4cf6-8afa-cd43a3b3c00f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'signInTextPassword']</value>
+      <webElementGuid>4025ef0f-29cb-430e-97fc-87817fc7ceb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]</value>
+      <webElementGuid>91116195-1636-4dc0-b7d6-234934825b6b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

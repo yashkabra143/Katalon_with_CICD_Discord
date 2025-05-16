@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Enter your email or phone number</name>
+   <tag></tag>
+   <elementGuidId>8c22bfe9-7cc3-490a-9f29-a1726f9b5d86</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#signInTextEmailOrPhone</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'signInTextEmailOrPhone']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Enter your email or phone number&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>e960e1ea-5d58-48e1-8b4c-484566a86789</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>aabffc1b-86a0-4cd9-8310-ce17d1954c45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>signInTextEmailOrPhone</value>
+      <webElementGuid>c80b9b1e-9365-4a76-8f2e-8f65e5784212</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>emailOrPhone</value>
+      <webElementGuid>51632f69-0108-4e96-a24e-b099db426dc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter your email or phone number</value>
+      <webElementGuid>8c6397b8-34d2-4221-a833-ce10652b8fb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>7a210149-babf-4580-a938-2e33af72324e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiInputBase-input MuiOutlinedInput-input css-1i02u0u</value>
+      <webElementGuid>dc3923f3-15c8-4d6b-acd4-716512d9374b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enter your email or phone number</value>
+      <webElementGuid>3d059e2b-f189-43e9-9136-2a4f48cee7b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-5723bedeada72dec44e81bfa947ad03e</value>
+      <webElementGuid>bf448fbf-d746-4467-a34d-37bffb66d741</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'signInTextEmailOrPhone']</value>
+      <webElementGuid>9627e712-5b37-4bb8-9744-a03110da4611</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'signInTextEmailOrPhone']</value>
+      <webElementGuid>2d139d24-5283-4243-8836-a0816f188467</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'signInTextEmailOrPhone' and @name = 'emailOrPhone' and @placeholder = 'Enter your email or phone number' and @type = 'text' and (text() = 'Enter your email or phone number' or . = 'Enter your email or phone number')]</value>
+      <webElementGuid>d4d2647c-b1b5-4348-9c7f-c192eb5e2c11</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_Login_With_Google_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7f4a873b-e4cb-4d59-8c46-781e6a7c8936</testCaseGuid>
+</TestCaseEntity>

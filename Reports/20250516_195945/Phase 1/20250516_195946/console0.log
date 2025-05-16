@@ -1,0 +1,1064 @@
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/Users/yashkabra/Katalon Studio/Quantumtrades/Test Listeners/TestListener.groovy: 1: unable to resolve class com.katalon.KatalonHelper
+ @ line 1, column 1.
+   import com.katalon.KatalonHelper
+   ^
+
+1 error
+
+2025-05-16 19:59:50.315 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Phase 1
+2025-05-16 19:59:50.363 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = yash kabra
+2025-05-16 19:59:50.363 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Quantumtrades
+2025-05-16 19:59:50.363 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = yashkabra - localhost
+2025-05-16 19:59:50.364 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-05-16 19:59:50.364 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-05-16 19:59:50.364 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-05-16 19:59:50.550 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-16 19:59:50.550 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login_and_SignUp/Standard_Login_TC
+2025-05-16 19:59:50.605 DEBUG testcase.Standard_Login_TC               - 1: openBrowser("")
+2025-05-16 19:59:50.681 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-16 19:59:50.704 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 16, 2025 7:59:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 16, 2025 7:59:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-16 19:59:53.647 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 511edd1d685d0b006f49d80f53a52891
+2025-05-16 19:59:53.649 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-16 19:59:53.649 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-16 19:59:53.649 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-16 19:59:53.654 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-16 19:59:53.675 DEBUG testcase.Standard_Login_TC               - 2: navigateToUrl("https://dev-portal.quantumtrades.com/")
+2025-05-16 20:00:02.910 DEBUG testcase.Standard_Login_TC               - 3: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number"))
+2025-05-16 20:00:03.402 DEBUG testcase.Standard_Login_TC               - 4: sendKeys(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number"), "yashkabra30@gmail.com")
+2025-05-16 20:00:03.939 DEBUG testcase.Standard_Login_TC               - 5: delay(10)
+2025-05-16 20:00:13.996 DEBUG testcase.Standard_Login_TC               - 6: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:00:14.349 DEBUG testcase.Standard_Login_TC               - 7: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password"))
+2025-05-16 20:00:45.789 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:00:45.798 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'. Try using Self-healing.
+2025-05-16 20:00:46.041 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:00:46.276 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:00:46.505 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:00:47.465 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:00:50.424 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:00:51.580 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.cssSelector: #signInTextPassword'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:00:51.969 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Standard_Login_TC.run(Standard_Login_TC:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1747286951341.run(Script1747286951341.groovy:34)
+	... 15 more
+)
+2025-05-16 20:00:51.972 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Login_and_SignUp/Standard_Login_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Standard_Login_TC.run(Standard_Login_TC:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+2025-05-16 20:00:52.090 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login_and_SignUp/Standard_Login_TC
+2025-05-16 20:00:52.094 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-16 20:00:52.094 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login_and_SignUp/Standard_Login_TC
+2025-05-16 20:00:52.104 DEBUG testcase.Standard_Login_TC               - 1: openBrowser("")
+2025-05-16 20:00:52.108 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-16 20:00:52.109 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 16, 2025 8:00:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 16, 2025 8:00:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-16 20:00:53.534 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 14a3158be7235a6c6e0983084d19c196
+2025-05-16 20:00:53.535 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-16 20:00:53.536 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-16 20:00:53.536 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-16 20:00:53.536 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-16 20:00:53.552 DEBUG testcase.Standard_Login_TC               - 2: navigateToUrl("https://dev-portal.quantumtrades.com/")
+2025-05-16 20:01:02.142 DEBUG testcase.Standard_Login_TC               - 3: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number"))
+2025-05-16 20:01:02.451 DEBUG testcase.Standard_Login_TC               - 4: sendKeys(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number"), "yashkabra30@gmail.com")
+2025-05-16 20:01:02.941 DEBUG testcase.Standard_Login_TC               - 5: delay(10)
+2025-05-16 20:01:12.969 DEBUG testcase.Standard_Login_TC               - 6: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:01:13.327 DEBUG testcase.Standard_Login_TC               - 7: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password"))
+2025-05-16 20:01:45.363 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:01:45.365 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'. Try using Self-healing.
+2025-05-16 20:01:45.591 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:01:45.817 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:01:46.649 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:01:47.886 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:01:52.783 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:01:54.024 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.cssSelector: #signInTextPassword'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:01:54.345 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Standard_Login_TC.run(Standard_Login_TC:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1747286951341.run(Script1747286951341.groovy:34)
+	... 16 more
+)
+2025-05-16 20:01:54.347 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Login_and_SignUp/Standard_Login_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Standard_Login_TC.run(Standard_Login_TC:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more
+
+2025-05-16 20:01:54.495 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login_and_SignUp/Standard_Login_TC
+2025-05-16 20:01:54.497 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-16 20:01:54.497 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login_and_SignUp/Standard_Login_TC
+2025-05-16 20:01:54.513 DEBUG testcase.Standard_Login_TC               - 1: openBrowser("")
+2025-05-16 20:01:54.516 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-16 20:01:54.517 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 16, 2025 8:01:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 16, 2025 8:01:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-16 20:01:55.926 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8c6615d75c7886cbf4397eb23a7e2ddb
+2025-05-16 20:01:55.929 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-16 20:01:55.929 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-16 20:01:55.929 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-16 20:01:55.930 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-16 20:01:55.939 DEBUG testcase.Standard_Login_TC               - 2: navigateToUrl("https://dev-portal.quantumtrades.com/")
+2025-05-16 20:02:05.573 DEBUG testcase.Standard_Login_TC               - 3: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number"))
+2025-05-16 20:02:05.879 DEBUG testcase.Standard_Login_TC               - 4: sendKeys(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number"), "yashkabra30@gmail.com")
+2025-05-16 20:02:06.371 DEBUG testcase.Standard_Login_TC               - 5: delay(10)
+2025-05-16 20:02:16.395 DEBUG testcase.Standard_Login_TC               - 6: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:02:28.410 DEBUG testcase.Standard_Login_TC               - 7: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password"))
+2025-05-16 20:02:59.548 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:02:59.551 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'. Try using Self-healing.
+2025-05-16 20:02:59.778 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:03:00.011 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:03:00.236 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:03:00.459 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:03:00.684 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:03:00.910 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:03:03.037 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:03:04.153 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.cssSelector: #signInTextPassword'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:03:04.694 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Standard_Login_TC.run(Standard_Login_TC:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1747286951341.run(Script1747286951341.groovy:34)
+	... 17 more
+)
+2025-05-16 20:03:04.696 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Login_and_SignUp/Standard_Login_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Standard_Login_TC.run(Standard_Login_TC:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+2025-05-16 20:03:04.910 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login_and_SignUp/Standard_Login_TC
+2025-05-16 20:03:04.915 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-16 20:03:04.915 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login_and_SignUp/Standard_Login_TC
+2025-05-16 20:03:04.935 DEBUG testcase.Standard_Login_TC               - 1: openBrowser("")
+2025-05-16 20:03:04.938 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-16 20:03:04.940 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 16, 2025 8:03:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 16, 2025 8:03:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-16 20:03:06.393 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c68cdd3f7fbd288659d61d227febaf49
+2025-05-16 20:03:06.396 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-16 20:03:06.397 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-16 20:03:06.397 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-16 20:03:06.398 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-16 20:03:06.408 DEBUG testcase.Standard_Login_TC               - 2: navigateToUrl("https://dev-portal.quantumtrades.com/")
+2025-05-16 20:03:18.035 DEBUG testcase.Standard_Login_TC               - 3: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number"))
+2025-05-16 20:03:18.379 DEBUG testcase.Standard_Login_TC               - 4: sendKeys(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number"), "yashkabra30@gmail.com")
+2025-05-16 20:03:19.006 DEBUG testcase.Standard_Login_TC               - 5: delay(10)
+2025-05-16 20:03:29.024 DEBUG testcase.Standard_Login_TC               - 6: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:03:29.362 DEBUG testcase.Standard_Login_TC               - 7: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password"))
+2025-05-16 20:04:00.380 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:04:00.386 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'. Try using Self-healing.
+2025-05-16 20:04:00.616 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:04:00.848 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:04:01.072 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:04:01.304 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:04:01.532 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:04:01.760 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:04:03.895 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:04:05.033 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.cssSelector: #signInTextPassword'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:04:05.512 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Standard_Login_TC.run(Standard_Login_TC:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1747286951341.run(Script1747286951341.groovy:34)
+	... 18 more
+)
+2025-05-16 20:04:05.515 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Login_and_SignUp/Standard_Login_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Standard_Login_TC.run(Standard_Login_TC:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+2025-05-16 20:04:05.676 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login_and_SignUp/Standard_Login_TC
+2025-05-16 20:04:05.678 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-16 20:04:05.678 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Dashboard/MarketPlace/Verify_MarketPlace_TC
+2025-05-16 20:04:05.706 DEBUG testcase.Verify_MarketPlace_TC           - 1: openBrowser("")
+2025-05-16 20:04:05.708 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-16 20:04:05.709 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 16, 2025 8:04:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 16, 2025 8:04:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-16 20:04:07.203 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4de6bdd29c2898aa9e104fb64a31d35b
+2025-05-16 20:04:07.204 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-16 20:04:07.204 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-16 20:04:07.204 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-16 20:04:07.205 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-16 20:04:07.219 DEBUG testcase.Verify_MarketPlace_TC           - 2: navigateToUrl("https://dev-portal.quantumtrades.com/")
+2025-05-16 20:04:16.900 DEBUG testcase.Verify_MarketPlace_TC           - 3: setText(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/input_Enter your email or phone number"), "yashkabra30@gmail.com")
+2025-05-16 20:04:17.824 DEBUG testcase.Verify_MarketPlace_TC           - 4: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:04:18.341 DEBUG testcase.Verify_MarketPlace_TC           - 5: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:04:21.932 DEBUG testcase.Verify_MarketPlace_TC           - 6: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:04:23.959 DEBUG testcase.Verify_MarketPlace_TC           - 7: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/div_QuantumTrades"))
+2025-05-16 20:04:25.991 DEBUG testcase.Verify_MarketPlace_TC           - 8: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password"))
+2025-05-16 20:04:57.070 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:04:57.080 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password'. Try using Self-healing.
+2025-05-16 20:04:57.309 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:04:57.543 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:04:57.765 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:04:57.988 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:04:58.208 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:04:58.430 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:05:00.575 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:05:01.718 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.cssSelector: #signInTextPassword'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:05:02.149 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Verify_MarketPlace_TC.run(Verify_MarketPlace_TC:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1747399885322.run(Script1747399885322.groovy:35)
+	... 15 more
+)
+2025-05-16 20:05:02.151 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Dashboard/MarketPlace/Verify_MarketPlace_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Verify_MarketPlace_TC.run(Verify_MarketPlace_TC:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+2025-05-16 20:05:02.267 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Dashboard/MarketPlace/Verify_MarketPlace_TC
+2025-05-16 20:05:02.269 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-16 20:05:02.269 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Dashboard/MarketPlace/Verify_MarketPlace_TC
+2025-05-16 20:05:02.282 DEBUG testcase.Verify_MarketPlace_TC           - 1: openBrowser("")
+2025-05-16 20:05:02.285 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-16 20:05:02.286 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 16, 2025 8:05:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 16, 2025 8:05:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-16 20:05:04.168 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2ae6c0f1faa3029b85434cb7f12a8f61
+2025-05-16 20:05:04.171 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-16 20:05:04.171 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-16 20:05:04.172 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-16 20:05:04.173 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-16 20:05:04.183 DEBUG testcase.Verify_MarketPlace_TC           - 2: navigateToUrl("https://dev-portal.quantumtrades.com/")
+2025-05-16 20:05:14.402 DEBUG testcase.Verify_MarketPlace_TC           - 3: setText(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/input_Enter your email or phone number"), "yashkabra30@gmail.com")
+2025-05-16 20:05:15.342 DEBUG testcase.Verify_MarketPlace_TC           - 4: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:05:15.856 DEBUG testcase.Verify_MarketPlace_TC           - 5: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:05:19.694 DEBUG testcase.Verify_MarketPlace_TC           - 6: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:05:21.698 DEBUG testcase.Verify_MarketPlace_TC           - 7: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/div_QuantumTrades"))
+2025-05-16 20:05:23.716 DEBUG testcase.Verify_MarketPlace_TC           - 8: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password"))
+2025-05-16 20:05:54.748 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:05:54.765 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password'. Try using Self-healing.
+2025-05-16 20:05:55.006 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:05:55.232 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:05:55.450 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:05:55.678 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:05:55.907 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:05:56.127 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:05:58.259 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:05:59.375 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.cssSelector: #signInTextPassword'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:05:59.970 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Verify_MarketPlace_TC.run(Verify_MarketPlace_TC:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1747399885322.run(Script1747399885322.groovy:35)
+	... 16 more
+)
+2025-05-16 20:05:59.972 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Dashboard/MarketPlace/Verify_MarketPlace_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Verify_MarketPlace_TC.run(Verify_MarketPlace_TC:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more
+
+2025-05-16 20:06:00.103 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Dashboard/MarketPlace/Verify_MarketPlace_TC
+2025-05-16 20:06:00.106 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-16 20:06:00.106 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Dashboard/MarketPlace/Verify_MarketPlace_TC
+2025-05-16 20:06:00.135 DEBUG testcase.Verify_MarketPlace_TC           - 1: openBrowser("")
+2025-05-16 20:06:00.137 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-16 20:06:00.139 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 16, 2025 8:06:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 16, 2025 8:06:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-16 20:06:02.151 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a8af56b9c7e2617c71918889d8f5d23b
+2025-05-16 20:06:02.153 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-16 20:06:02.153 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-16 20:06:02.153 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-16 20:06:02.154 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-16 20:06:02.164 DEBUG testcase.Verify_MarketPlace_TC           - 2: navigateToUrl("https://dev-portal.quantumtrades.com/")
+2025-05-16 20:06:12.623 DEBUG testcase.Verify_MarketPlace_TC           - 3: setText(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/input_Enter your email or phone number"), "yashkabra30@gmail.com")
+2025-05-16 20:06:13.520 DEBUG testcase.Verify_MarketPlace_TC           - 4: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:06:14.033 DEBUG testcase.Verify_MarketPlace_TC           - 5: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:06:17.737 DEBUG testcase.Verify_MarketPlace_TC           - 6: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:06:19.758 DEBUG testcase.Verify_MarketPlace_TC           - 7: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/div_QuantumTrades"))
+2025-05-16 20:06:21.779 DEBUG testcase.Verify_MarketPlace_TC           - 8: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password"))
+2025-05-16 20:06:52.961 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:06:52.963 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password'. Try using Self-healing.
+2025-05-16 20:06:53.185 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:06:53.405 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:06:53.630 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:06:53.854 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:06:54.078 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:06:54.305 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:06:56.432 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:06:57.567 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.cssSelector: #signInTextPassword'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:06:58.119 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Verify_MarketPlace_TC.run(Verify_MarketPlace_TC:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1747399885322.run(Script1747399885322.groovy:35)
+	... 17 more
+)
+2025-05-16 20:06:58.121 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Dashboard/MarketPlace/Verify_MarketPlace_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Verify_MarketPlace_TC.run(Verify_MarketPlace_TC:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 22 more
+
+2025-05-16 20:06:58.250 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Dashboard/MarketPlace/Verify_MarketPlace_TC
+2025-05-16 20:06:58.257 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-16 20:06:58.257 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Dashboard/MarketPlace/Verify_MarketPlace_TC
+2025-05-16 20:06:58.271 DEBUG testcase.Verify_MarketPlace_TC           - 1: openBrowser("")
+2025-05-16 20:06:58.273 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-16 20:06:58.273 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 16, 2025 8:07:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 16, 2025 8:07:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-16 20:07:00.180 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 26cce2cedeb89064794bb8b12c337764
+2025-05-16 20:07:00.181 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-16 20:07:00.181 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-16 20:07:00.182 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-16 20:07:00.184 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-16 20:07:00.193 DEBUG testcase.Verify_MarketPlace_TC           - 2: navigateToUrl("https://dev-portal.quantumtrades.com/")
+2025-05-16 20:07:09.451 DEBUG testcase.Verify_MarketPlace_TC           - 3: setText(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/input_Enter your email or phone number"), "yashkabra30@gmail.com")
+2025-05-16 20:07:10.245 DEBUG testcase.Verify_MarketPlace_TC           - 4: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:07:10.770 DEBUG testcase.Verify_MarketPlace_TC           - 5: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:07:14.497 DEBUG testcase.Verify_MarketPlace_TC           - 6: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:07:16.550 DEBUG testcase.Verify_MarketPlace_TC           - 7: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/div_QuantumTrades"))
+2025-05-16 20:07:18.554 DEBUG testcase.Verify_MarketPlace_TC           - 8: click(findTestObject("Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password"))
+2025-05-16 20:07:49.589 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:07:49.593 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password'. Try using Self-healing.
+2025-05-16 20:07:49.818 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:07:50.078 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:07:50.296 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:07:50.523 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:07:50.751 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:07:50.974 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:07:53.088 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:07:54.203 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.cssSelector: #signInTextPassword'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:07:54.776 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Verify_MarketPlace_TC.run(Verify_MarketPlace_TC:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1747399885322.run(Script1747399885322.groovy:35)
+	... 18 more
+)
+2025-05-16 20:07:54.778 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Dashboard/MarketPlace/Verify_MarketPlace_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Verify_MarketPlace_TC.run(Verify_MarketPlace_TC:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MarketPlace/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+2025-05-16 20:07:54.893 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Dashboard/MarketPlace/Verify_MarketPlace_TC
+2025-05-16 20:07:54.895 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-16 20:07:54.895 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Dashboard/Quantam AI/Verify_Quantam_AI_TC
+2025-05-16 20:07:54.932 DEBUG testcase.Verify_Quantam_AI_TC            - 1: openBrowser("")
+2025-05-16 20:07:54.933 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-16 20:07:54.934 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 16, 2025 8:07:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 16, 2025 8:07:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-16 20:07:56.679 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8b38fcd8034a59ed4a996a01b87c9db7
+2025-05-16 20:07:56.680 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-16 20:07:56.680 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-16 20:07:56.680 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-16 20:07:56.680 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-16 20:07:56.690 DEBUG testcase.Verify_Quantam_AI_TC            - 2: navigateToUrl("https://dev-portal.quantumtrades.com/")
+2025-05-16 20:08:05.246 DEBUG testcase.Verify_Quantam_AI_TC            - 3: setText(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Enter your email or phone number"), "yashkabra30@gmail.com")
+2025-05-16 20:08:06.029 DEBUG testcase.Verify_Quantam_AI_TC            - 4: click(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:08:06.555 DEBUG testcase.Verify_Quantam_AI_TC            - 5: click(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:08:10.062 DEBUG testcase.Verify_Quantam_AI_TC            - 6: click(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:08:12.073 DEBUG testcase.Verify_Quantam_AI_TC            - 7: click(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/form_Email Or Phone"))
+2025-05-16 20:08:14.106 DEBUG testcase.Verify_Quantam_AI_TC            - 8: click(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Please enter your password"))
+2025-05-16 20:08:45.219 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:08:45.223 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Please enter your password'. Try using Self-healing.
+2025-05-16 20:08:45.449 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:08:45.668 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:08:45.891 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:08:46.117 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:08:46.343 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:08:46.569 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:08:48.677 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:08:49.779 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.cssSelector: #signInTextPassword'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:08:50.181 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Please enter your password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Verify_Quantam_AI_TC.run(Verify_Quantam_AI_TC:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1747404232399.run(Script1747404232399.groovy:35)
+	... 15 more
+)
+2025-05-16 20:08:50.184 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Dashboard/Quantam AI/Verify_Quantam_AI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Verify_Quantam_AI_TC.run(Verify_Quantam_AI_TC:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+2025-05-16 20:08:50.301 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Dashboard/Quantam AI/Verify_Quantam_AI_TC
+2025-05-16 20:08:50.303 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-16 20:08:50.303 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Dashboard/Quantam AI/Verify_Quantam_AI_TC
+2025-05-16 20:08:50.317 DEBUG testcase.Verify_Quantam_AI_TC            - 1: openBrowser("")
+2025-05-16 20:08:50.319 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-16 20:08:50.319 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 16, 2025 8:08:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 16, 2025 8:08:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-16 20:08:51.688 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b1c56b122e596aa9daaffd9f2cedb3a7
+2025-05-16 20:08:51.689 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-16 20:08:51.689 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-16 20:08:51.689 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-16 20:08:51.690 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-16 20:08:51.694 DEBUG testcase.Verify_Quantam_AI_TC            - 2: navigateToUrl("https://dev-portal.quantumtrades.com/")
+2025-05-16 20:09:01.348 DEBUG testcase.Verify_Quantam_AI_TC            - 3: setText(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Enter your email or phone number"), "yashkabra30@gmail.com")
+2025-05-16 20:09:02.150 DEBUG testcase.Verify_Quantam_AI_TC            - 4: click(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:09:02.653 DEBUG testcase.Verify_Quantam_AI_TC            - 5: click(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:09:06.375 DEBUG testcase.Verify_Quantam_AI_TC            - 6: click(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:09:08.358 DEBUG testcase.Verify_Quantam_AI_TC            - 7: click(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/form_Email Or Phone"))
+2025-05-16 20:09:10.436 DEBUG testcase.Verify_Quantam_AI_TC            - 8: click(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Please enter your password"))
+2025-05-16 20:09:41.541 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:09:41.548 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Please enter your password'. Try using Self-healing.
+2025-05-16 20:09:41.774 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:09:42.011 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:09:42.235 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:09:42.459 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:09:42.686 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//*[@id = 'signInTextPassword']'.
+2025-05-16 20:09:42.913 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed Locator: '//input[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'.
+2025-05-16 20:09:45.038 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword' and @name = 'password' and @placeholder = 'Please enter your password' and @type = 'password' and (text() = 'Please enter your password' or . = 'Please enter your password')]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:09:46.154 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.cssSelector: #signInTextPassword'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 20:09:46.621 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Please enter your password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Verify_Quantam_AI_TC.run(Verify_Quantam_AI_TC:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1747404232399.run(Script1747404232399.groovy:35)
+	... 16 more
+)
+2025-05-16 20:09:46.623 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Dashboard/Quantam AI/Verify_Quantam_AI_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Verify_Quantam_AI_TC.run(Verify_Quantam_AI_TC:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747405786999.run(TempTestSuite1747405786999.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more
+
+2025-05-16 20:09:46.739 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Dashboard/Quantam AI/Verify_Quantam_AI_TC
+2025-05-16 20:09:46.741 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-16 20:09:46.741 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Dashboard/Quantam AI/Verify_Quantam_AI_TC
+2025-05-16 20:09:46.753 DEBUG testcase.Verify_Quantam_AI_TC            - 1: openBrowser("")
+2025-05-16 20:09:46.755 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-16 20:09:46.756 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 16, 2025 8:09:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 16, 2025 8:09:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-16 20:09:48.687 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3224d766690779e7f08dafd83de7ae28
+2025-05-16 20:09:48.688 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-16 20:09:48.688 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-16 20:09:48.688 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-16 20:09:48.689 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-16 20:09:48.697 DEBUG testcase.Verify_Quantam_AI_TC            - 2: navigateToUrl("https://dev-portal.quantumtrades.com/")
+2025-05-16 20:09:56.412 DEBUG testcase.Verify_Quantam_AI_TC            - 3: setText(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Enter your email or phone number"), "yashkabra30@gmail.com")
+2025-05-16 20:09:57.381 DEBUG testcase.Verify_Quantam_AI_TC            - 4: click(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:09:57.933 DEBUG testcase.Verify_Quantam_AI_TC            - 5: click(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:10:01.684 DEBUG testcase.Verify_Quantam_AI_TC            - 6: click(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 20:10:04.535 DEBUG testcase.Verify_Quantam_AI_TC            - 7: click(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/form_Email Or Phone"))
+2025-05-16 20:10:06.884 DEBUG testcase.Verify_Quantam_AI_TC            - 8: click(findTestObject("Object Repository/Quantam_AI_Page/Page_QuantumTrades/input_Please enter your password"))

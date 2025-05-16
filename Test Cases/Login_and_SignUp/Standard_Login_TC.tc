@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Standard_Login_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1857aa6e-d91c-4017-937e-c1bfdd457da5</testCaseGuid>
+</TestCaseEntity>

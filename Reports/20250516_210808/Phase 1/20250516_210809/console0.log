@@ -1,0 +1,235 @@
+2025-05-16 21:08:12.836 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Phase 1
+2025-05-16 21:08:12.888 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = yash kabra
+2025-05-16 21:08:12.888 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Quantumtrades
+2025-05-16 21:08:12.888 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = yashkabra - localhost
+2025-05-16 21:08:12.888 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-05-16 21:08:12.889 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-05-16 21:08:12.889 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-05-16 21:08:13.097 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-16 21:08:13.097 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login_and_SignUp/Standard_Login_TC
+2025-05-16 21:08:13.142 DEBUG testcase.Standard_Login_TC               - 1: openBrowser("")
+2025-05-16 21:08:13.219 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-16 21:08:13.239 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 16, 2025 9:08:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 16, 2025 9:08:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-16 21:08:15.629 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9d8bbb02d8b438c4bae56c9913403b40
+2025-05-16 21:08:15.631 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-16 21:08:15.632 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-16 21:08:15.632 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-16 21:08:15.638 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-16 21:08:15.655 DEBUG testcase.Standard_Login_TC               - 2: navigateToUrl("https://dev-portal.quantumtrades.com/")
+2025-05-16 21:08:22.976 DEBUG testcase.Standard_Login_TC               - 3: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number"))
+2025-05-16 21:08:23.292 DEBUG testcase.Standard_Login_TC               - 4: sendKeys(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number"), "yashkabra30@gmail.com")
+2025-05-16 21:08:23.734 DEBUG testcase.Standard_Login_TC               - 5: delay(10)
+2025-05-16 21:08:33.762 DEBUG testcase.Standard_Login_TC               - 6: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 21:08:34.080 DEBUG testcase.Standard_Login_TC               - 7: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password"))
+2025-05-16 21:09:05.899 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 21:09:06.295 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Standard_Login_TC.run(Standard_Login_TC:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747409889786.run(TempTestSuite1747409889786.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1747286951341.run(Script1747286951341.groovy:34)
+	... 15 more
+)
+2025-05-16 21:09:06.298 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Login_and_SignUp/Standard_Login_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Standard_Login_TC.run(Standard_Login_TC:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747409889786.run(TempTestSuite1747409889786.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+2025-05-16 21:09:06.416 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login_and_SignUp/Standard_Login_TC
+2025-05-16 21:09:06.422 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-16 21:09:06.422 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login_and_SignUp/Login_With_Valid_Email_Invalid_PWD_TC
+2025-05-16 21:09:06.448 DEBUG t.Login_With_Valid_Email_Invalid_PWD_TC  - 1: openBrowser("")
+2025-05-16 21:09:06.451 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-16 21:09:06.452 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 16, 2025 9:09:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 16, 2025 9:09:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-16 21:09:07.990 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c352c3c6baf6fa938d61718053a5a8a2
+2025-05-16 21:09:07.991 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-16 21:09:07.991 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-16 21:09:07.991 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-16 21:09:07.992 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-16 21:09:08.001 DEBUG t.Login_With_Valid_Email_Invalid_PWD_TC  - 2: navigateToUrl("https://dev-portal.quantumtrades.com/")
+2025-05-16 21:09:17.153 DEBUG t.Login_With_Valid_Email_Invalid_PWD_TC  - 3: setText(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number"), "yashkabra30@gmail.com")
+2025-05-16 21:09:17.991 DEBUG t.Login_With_Valid_Email_Invalid_PWD_TC  - 4: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 21:09:18.885 DEBUG t.Login_With_Valid_Email_Invalid_PWD_TC  - 5: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 21:09:23.361 DEBUG t.Login_With_Valid_Email_Invalid_PWD_TC  - 6: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 21:09:25.695 DEBUG t.Login_With_Valid_Email_Invalid_PWD_TC  - 7: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password"))
+2025-05-16 21:09:57.761 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = 'signInTextPassword']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-16 21:09:58.126 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Login_With_Valid_Email_Invalid_PWD_TC.run(Login_With_Valid_Email_Invalid_PWD_TC:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747409889786.run(TempTestSuite1747409889786.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1747398947402.run(Script1747398947402.groovy:33)
+	... 15 more
+)
+2025-05-16 21:09:58.127 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Login_and_SignUp/Login_With_Valid_Email_Invalid_PWD_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Login_With_Valid_Email_Invalid_PWD_TC.run(Login_With_Valid_Email_Invalid_PWD_TC:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747409889786.run(TempTestSuite1747409889786.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password' located by '//*[@id = 'signInTextPassword']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+2025-05-16 21:09:58.264 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login_and_SignUp/Login_With_Valid_Email_Invalid_PWD_TC
+2025-05-16 21:09:58.267 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-16 21:09:58.267 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login_and_SignUp/Login_With_Invalid_Email_TC
+2025-05-16 21:09:58.293 DEBUG testcase.Login_With_Invalid_Email_TC     - 1: openBrowser("")
+2025-05-16 21:09:58.296 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-16 21:09:58.297 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 16, 2025 9:09:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 16, 2025 9:09:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-16 21:09:59.768 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0ac529574ea573502f1cc15c3604d792
+2025-05-16 21:09:59.770 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.114
+2025-05-16 21:09:59.770 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-05-16 21:09:59.770 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-16 21:09:59.771 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-16 21:09:59.781 DEBUG testcase.Login_With_Invalid_Email_TC     - 2: navigateToUrl("https://dev-portal.quantumtrades.com/")
+2025-05-16 21:10:08.607 DEBUG testcase.Login_With_Invalid_Email_TC     - 3: setText(findTestObject("Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number"), "test@test.com")
+2025-05-16 21:10:09.551 DEBUG testcase.Login_With_Invalid_Email_TC     - 4: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/button_signInBtnEmailContinue"))
+2025-05-16 21:10:10.066 DEBUG testcase.Login_With_Invalid_Email_TC     - 5: click(findTestObject("Object Repository/Login_page/Page_QuantumTrades/p_User doesnt exist for the entered email"))
+2025-05-16 21:10:14.402 DEBUG testcase.Login_With_Invalid_Email_TC     - 6: closeBrowser()
+2025-05-16 21:10:14.511 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login_and_SignUp/Login_With_Invalid_Email_TC
+2025-05-16 21:10:14.599 ERROR c.k.k.core.context.internal.TestHooker   - ❌ org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: custom.DiscordNotifier.sendDiscordEmbedMessage() is applicable for argument types: (String, String, org.codehaus.groovy.runtime.GStringImpl, String) values: [Test Suites/Phase 1, COMPLETE, 121 seconds, /Users/yashkabra/Katalon Studio/Quantumtrades/Reports/20250516_211014/Test Suites/Phase 1/20250516_211014]
+Possible solutions: sendDiscordEmbedMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, int, int, int)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestSuiteExecutor.executeListenerAfterTestSuite(TestSuiteExecutor.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:111)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1747409889786.run(TempTestSuite1747409889786.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: groovy.lang.MissingMethodException: No signature of method: custom.DiscordNotifier.sendDiscordEmbedMessage() is applicable for argument types: (String, String, org.codehaus.groovy.runtime.GStringImpl, String) values: [Test Suites/Phase 1, COMPLETE, 121 seconds, /Users/yashkabra/Katalon Studio/Quantumtrades/Reports/20250516_211014/Test Suites/Phase 1/20250516_211014]
+Possible solutions: sendDiscordEmbedMessage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, int, int, int)
+	at TestListener.afterTestSuite(TestListener.groovy:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	... 13 more
+
+2025-05-16 21:10:14.621 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-05-16 21:10:14.621 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Phase 1
+2025-05-16 21:10:14.621 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

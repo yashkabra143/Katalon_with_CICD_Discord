@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Help</name>
+   <tag></tag>
+   <elementGuidId>bfb7e627-0e28-49c2-aa23-a486a6bf2df0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;sidebar-item-help&quot;] p.MuiTypography-root.css-jwevdw</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'sidebar-item-help']//p[@class and contains(concat(' ', normalize-space(@class), ' '), ' MuiTypography-root ') and contains(concat(' ', normalize-space(@class), ' '), ' css-jwevdw ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;sidebar-item-help&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>873d1272-840c-4128-a249-2ea4e3142458</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body1 css-jwevdw</value>
+      <webElementGuid>f31211d6-b48c-4f5a-addf-15a2b0266a75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Help</value>
+      <webElementGuid>dd543ebc-e10e-41ec-a1bc-992885314d5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>Help</value>
+      <webElementGuid>f375ab05-ccb5-49cd-879e-576822f9389c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-b81089d63d1e2ae95f0ade3c9aeda88f</value>
+      <webElementGuid>a3c18f94-049e-40ee-b229-3ad1f1194921</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'sidebar-item-help']//p[@class and contains(concat(' ', normalize-space(@class), ' '), ' MuiTypography-root ') and contains(concat(' ', normalize-space(@class), ' '), ' css-jwevdw ')]</value>
+      <webElementGuid>4e3ebd08-2f15-4db6-9a5c-b8f5eaf4744a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'sidebar-item-help']//p[@class and contains(concat(' ', normalize-space(@class), ' '), ' MuiTypography-root ') and contains(concat(' ', normalize-space(@class), ' '), ' css-jwevdw ')]</value>
+      <webElementGuid>b030011c-b48f-4519-8b9f-c6655b7d63b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Help' or . = 'Help')]</value>
+      <webElementGuid>bd9ee02d-0a91-48aa-8e6e-28236fd58824</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

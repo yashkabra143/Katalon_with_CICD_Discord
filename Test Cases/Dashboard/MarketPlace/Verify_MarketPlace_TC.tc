@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_MarketPlace_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>df0b2cc3-f48f-4063-aacd-e0e001b03fb6</testCaseGuid>
+</TestCaseEntity>

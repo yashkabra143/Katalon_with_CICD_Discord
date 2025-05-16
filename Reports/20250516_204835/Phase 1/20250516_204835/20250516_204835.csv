@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Phase 1,Chrome 136.0.7103.114,,,16-05-2025 20:48:39,16-05-2025 20:50:46,2m - 7.095s,FAILED
+,,,,,,,
+Start listener action : beforeTestSuite,Chrome 136.0.7103.114,,,16-05-2025 20:48:39,16-05-2025 20:48:39,0.015s,PASSED
+,,,,,,,
+Test Cases/Login_and_SignUp/Standard_Login_TC,Chrome 136.0.7103.114,,,16-05-2025 20:48:39,16-05-2025 20:49:36,57.334s,FAILED
+Start listener action : beforeTestCase,Chrome 136.0.7103.114,,,16-05-2025 20:48:39,16-05-2025 20:48:39,0.009s,PASSED
+"openBrowser("""")",Chrome 136.0.7103.114,,,16-05-2025 20:48:39,16-05-2025 20:48:42,3.197s,PASSED
+"navigateToUrl(""https://dev-portal.quantumtrades.com/"")",Chrome 136.0.7103.114,,,16-05-2025 20:48:42,16-05-2025 20:48:52,9.667s,PASSED
+"click(findTestObject(""Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number""))",Chrome 136.0.7103.114,,,16-05-2025 20:48:52,16-05-2025 20:48:52,0.344s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number""), ""yashkabra30@gmail.com"")",Chrome 136.0.7103.114,,,16-05-2025 20:48:52,16-05-2025 20:48:53,0.440s,PASSED
+delay(10),Chrome 136.0.7103.114,,,16-05-2025 20:48:53,16-05-2025 20:49:03,10.035s,PASSED
+"click(findTestObject(""Object Repository/Login_page/Page_QuantumTrades/button_signInBtnEmailContinue""))",Chrome 136.0.7103.114,,,16-05-2025 20:49:03,16-05-2025 20:49:05,2.089s,PASSED
+"click(findTestObject(""Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password""))",Chrome 136.0.7103.114,,,16-05-2025 20:49:05,16-05-2025 20:49:36,31.378s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 136.0.7103.114,,,16-05-2025 20:49:36,16-05-2025 20:49:36,0.132s,PASSED
+,,,,,,,
+Test Cases/Login_and_SignUp/Login_With_Valid_Email_Invalid_PWD_TC,Chrome 136.0.7103.114,,,16-05-2025 20:49:36,16-05-2025 20:50:30,53.870s,FAILED
+Start listener action : beforeTestCase,Chrome 136.0.7103.114,,,16-05-2025 20:49:36,16-05-2025 20:49:36,0.001s,PASSED
+"openBrowser("""")",Chrome 136.0.7103.114,,,16-05-2025 20:49:36,16-05-2025 20:49:38,1.680s,PASSED
+"navigateToUrl(""https://dev-portal.quantumtrades.com/"")",Chrome 136.0.7103.114,,,16-05-2025 20:49:38,16-05-2025 20:49:39,1.226s,PASSED
+"setText(findTestObject(""Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number""), ""yashkabra30@gmail.com"")",Chrome 136.0.7103.114,,,16-05-2025 20:49:39,16-05-2025 20:49:48,8.899s,PASSED
+"click(findTestObject(""Object Repository/Login_page/Page_QuantumTrades/button_signInBtnEmailContinue""))",Chrome 136.0.7103.114,,,16-05-2025 20:49:48,16-05-2025 20:49:49,0.932s,PASSED
+"click(findTestObject(""Object Repository/Login_page/Page_QuantumTrades/button_signInBtnEmailContinue""))",Chrome 136.0.7103.114,,,16-05-2025 20:49:49,16-05-2025 20:49:53,3.957s,PASSED
+"click(findTestObject(""Object Repository/Login_page/Page_QuantumTrades/button_signInBtnEmailContinue""))",Chrome 136.0.7103.114,,,16-05-2025 20:49:53,16-05-2025 20:49:58,5.402s,PASSED
+"click(findTestObject(""Object Repository/Login_page/Page_QuantumTrades/input_Please enter your password""))",Chrome 136.0.7103.114,,,16-05-2025 20:49:58,16-05-2025 20:50:30,31.605s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 136.0.7103.114,,,16-05-2025 20:50:30,16-05-2025 20:50:30,0.134s,PASSED
+,,,,,,,
+Test Cases/Login_and_SignUp/Login_With_Invalid_Email_TC,Chrome 136.0.7103.114,,,16-05-2025 20:50:30,16-05-2025 20:50:46,15.611s,PASSED
+Start listener action : beforeTestCase,Chrome 136.0.7103.114,,,16-05-2025 20:50:30,16-05-2025 20:50:30,0.000s,PASSED
+"openBrowser("""")",Chrome 136.0.7103.114,,,16-05-2025 20:50:30,16-05-2025 20:50:32,1.899s,PASSED
+"navigateToUrl(""https://dev-portal.quantumtrades.com/"")",Chrome 136.0.7103.114,,,16-05-2025 20:50:32,16-05-2025 20:50:40,8.149s,PASSED
+"setText(findTestObject(""Object Repository/Login_page/Page_QuantumTrades/input_Enter your email or phone number""), ""test@test.com"")",Chrome 136.0.7103.114,,,16-05-2025 20:50:40,16-05-2025 20:50:41,0.786s,PASSED
+"click(findTestObject(""Object Repository/Login_page/Page_QuantumTrades/button_signInBtnEmailContinue""))",Chrome 136.0.7103.114,,,16-05-2025 20:50:41,16-05-2025 20:50:42,0.543s,PASSED
+"click(findTestObject(""Object Repository/Login_page/Page_QuantumTrades/p_User doesnt exist for the entered email""))",Chrome 136.0.7103.114,,,16-05-2025 20:50:42,16-05-2025 20:50:46,4.040s,PASSED
+closeBrowser(),Chrome 136.0.7103.114,,,16-05-2025 20:50:46,16-05-2025 20:50:46,0.130s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 136.0.7103.114,,,16-05-2025 20:50:46,16-05-2025 20:50:46,0.003s,PASSED
+,,,,,,,
+Start listener action : afterTestSuite,Chrome 136.0.7103.114,,,16-05-2025 20:50:46,16-05-2025 20:50:46,0.033s,ERROR

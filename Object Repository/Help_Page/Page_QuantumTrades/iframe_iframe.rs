@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iframe_iframe</name>
+   <tag></tag>
+   <elementGuidId>15e26d98-4a34-4fbf-80ca-da7c54675633</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.MuiGrid-item.MuiGrid-root.css-rpybyc:nth-child(1) [allowfullscreen=&quot;&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' MuiGrid-item ') and contains(concat(' ', normalize-space(@class), ' '), ' MuiGrid-root ') and contains(concat(' ', normalize-space(@class), ' '), ' css-rpybyc ') and (position() = 1)]//*[@allowfullscreen = '']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^How it works$/ >> iframe</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>iframe</value>
+      <webElementGuid>4763f0df-0fe6-40e4-8d53-5288fcad8086</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://youtube.com/embed/E3RK6c_BqkU</value>
+      <webElementGuid>06880810-9ae7-4211-850d-6384c2f7b615</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>100%</value>
+      <webElementGuid>fb9c3c8c-5e80-44b9-ab3a-ef3bfefdf638</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>315</value>
+      <webElementGuid>e7135278-7b7e-466e-9d3d-4b46e233377a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>iframe</value>
+      <webElementGuid>f2400874-d9bb-4589-a26d-00eaf28d6d1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a8c723f60d79c6f085c28d32186848cb</value>
+      <webElementGuid>52eb8702-323b-4b78-8bd1-d483f069906a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' MuiGrid-item ') and contains(concat(' ', normalize-space(@class), ' '), ' MuiGrid-root ') and contains(concat(' ', normalize-space(@class), ' '), ' css-rpybyc ') and (position() = 1)]//*[@allowfullscreen = '']</value>
+      <webElementGuid>31387763-fad8-47bf-8c54-e189818bde91</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' MuiGrid-item ') and contains(concat(' ', normalize-space(@class), ' '), ' MuiGrid-root ') and contains(concat(' ', normalize-space(@class), ' '), ' css-rpybyc ') and (position() = 1)]//*[@allowfullscreen = '']</value>
+      <webElementGuid>d97b8209-222b-4563-80be-36f7879e3821</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//iframe[@src = 'https://youtube.com/embed/E3RK6c_BqkU' and (text() = 'iframe' or . = 'iframe')]</value>
+      <webElementGuid>2434ead8-1536-4499-abbc-58f39e41494b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
