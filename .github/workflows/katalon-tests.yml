@@ -39,8 +39,37 @@ jobs:
 
     - name: Send Discord Notification
       run: |
+        # Get test results from the latest report
+        REPORT_PATH=$(find ./Reports -name "*.pdf" -type f -printf '%T@ %p\n' | sort -n | tail -1 | cut -f2- -d" ")
+        TOTAL_TESTS=$(grep -r "Total Tests" ./Reports | grep -o '[0-9]*' | head -1 || echo "0")
+        PASSED_TESTS=$(grep -r "Passed" ./Reports | grep -o '[0-9]*' | head -1 || echo "0")
+        FAILED_TESTS=$(grep -r "Failed" ./Reports | grep -o '[0-9]*' | head -1 || echo "0")
+        
         curl -H "Content-Type: application/json" \
         -X POST \
-        -d '{"content":"✅ **Test execution completed!**\n📄 View the report at: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"}' \
+        -d '{
+          "embeds": [{
+            "title": "Test Execution Results",
+            "color": 5814783,
+            "fields": [
+              {
+                "name": "Total Tests",
+                "value": "'$TOTAL_TESTS'",
+                "inline": true
+              },
+              {
+                "name": "Passed",
+                "value": "'$PASSED_TESTS'",
+                "inline": true
+              },
+              {
+                "name": "Failed",
+                "value": "'$FAILED_TESTS'",
+                "inline": true
+              }
+            ],
+            "description": "📄 [View Detailed Report](https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/'$(basename "$REPORT_PATH")')"
+          }]
+        }' \
         ${{ secrets.DISCORD_WEBHOOK }}
       if: always()  # Send even if tests fail
