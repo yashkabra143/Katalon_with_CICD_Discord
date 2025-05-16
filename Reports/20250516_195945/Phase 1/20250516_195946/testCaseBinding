@@ -1,7 +1,0 @@
-{"testCaseName":"Test Cases/Login_and_SignUp/Standard_Login_TC","testCaseId":"Test Cases/Login_and_SignUp/Standard_Login_TC","iterationVariableName":""}
-{"testCaseName":"Test Cases/Dashboard/MarketPlace/Verify_MarketPlace_TC","testCaseId":"Test Cases/Dashboard/MarketPlace/Verify_MarketPlace_TC","iterationVariableName":""}
-{"testCaseName":"Test Cases/Dashboard/Quantam AI/Verify_Quantam_AI_TC","testCaseId":"Test Cases/Dashboard/Quantam AI/Verify_Quantam_AI_TC","iterationVariableName":""}
-{"testCaseName":"Test Cases/Dashboard/Help/Verify_Help_TC","testCaseId":"Test Cases/Dashboard/Help/Verify_Help_TC","iterationVariableName":""}
-{"testCaseName":"Test Cases/Login_and_SignUp/Verify_Login_With_Google_TC","testCaseId":"Test Cases/Login_and_SignUp/Verify_Login_With_Google_TC","iterationVariableName":""}
-{"testCaseName":"Test Cases/Login_and_SignUp/Login_With_Invalid_Email_TC","testCaseId":"Test Cases/Login_and_SignUp/Login_With_Invalid_Email_TC","iterationVariableName":""}
-{"testCaseName":"Test Cases/Login_and_SignUp/Login_With_Valid_Email_Invalid_PWD_TC","testCaseId":"Test Cases/Login_and_SignUp/Login_With_Valid_Email_Invalid_PWD_TC","iterationVariableName":""}
