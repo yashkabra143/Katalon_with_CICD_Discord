@@ -36,13 +36,11 @@ jobs:
             commit_message: "Deploy PDF report to GitHub Pages"
             exclude_assets: |
                 !*.pdf
-  
+
     - name: Send Discord Notification
-      uses: Ilshidur/action-discord@master
-      env:
-        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-      with:
-        args: |
-          ✅ **Test execution completed!**
-          📄 View the report at: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+      run: |
+        curl -H "Content-Type: application/json" \
+        -X POST \
+        -d '{"content":"✅ **Test execution completed!**\n📄 View the report at: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"}' \
+        ${{ secrets.DISCORD_WEBHOOK }}
       if: always()  # Send even if tests fail
