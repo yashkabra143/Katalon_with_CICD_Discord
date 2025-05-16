@@ -25,10 +25,24 @@ jobs:
           Reports/
           Test Results/ 
     
-    - name: Send Report to Discord
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./Reports/
+            publish_branch: gh-pages
+            keep_files: true
+            force_orphan: true
+            commit_message: "Deploy PDF report to GitHub Pages"
+            exclude_assets: |
+                !*.pdf
+  
+    - name: Send Discord Notification
       uses: Ilshidur/action-discord@master
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       with:
-        args: "Test results have been uploaded. Check the artifacts for details."
-      if: always()  # Send even if tests fail
+        args: |
+          ✅ **Test execution completed!**
+          📄 View the report at: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+          if: always()  # Send even if tests fail
